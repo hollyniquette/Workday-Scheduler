@@ -20,7 +20,7 @@ $(document).ready(function () {
 
   // define today's date with day.js
   var date = document.getElementById("date");
-  date.innerText = dayjs().format("dddd");
+  date.textContent = dayjs().format("dddd");
 
   // dynamically create hour row with jQuery
   function createHour(hour) {
