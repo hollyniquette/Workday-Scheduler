@@ -73,7 +73,3 @@ $(document).ready(function () {
     localStorage.setItem(id2, entry);
   });
 });
-
-//TODO create for loop to determine past and present and future hours by current hour
-
-console.log(dayjs().hour());
